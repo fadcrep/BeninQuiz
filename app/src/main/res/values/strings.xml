@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BeninQuiz</string>
+    <string name="Continuer">CONTINUER</string>
+    <string name="Bienvenue">Bienvenue sur</string>
+    <string name="sign_in">Connexion</string>
+    <string name="login_with_google">Connexion avec google</string>
+    <string name="login_with_facebook">Connexion avec Facebook</string>
+    <string name="time">00:00:15</string>
+    <string name="score">Score : 0</string>
+</resources>

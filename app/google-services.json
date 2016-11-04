@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "199943266275",
+    "firebase_url": "https://beninquiz.firebaseio.com",
+    "project_id": "beninquiz",
+    "storage_bucket": "beninquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199943266275:android:54383e5661d9e437",
+        "android_client_info": {
+          "package_name": "com.example.fad.beninquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199943266275-21ea6piq7loh26jastgekdf8oml5qe0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fad.beninquiz",
+            "certificate_hash": "B264F237C3D412A353D0A4E3EDB075B12C45D775"
+          }
+        },
+        {
+          "client_id": "199943266275-h3c2f2vsc70ap7dqfod7eogr6dbtalnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxZY55tKxjXPveV7HV4h8q_tGZzkfgVxc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199943266275-h3c2f2vsc70ap7dqfod7eogr6dbtalnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

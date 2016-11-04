@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        >
+        <TextView
+            android:layout_weight="0.4"
+            android:id="@+id/score"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/score"/>
+        <TextView
+            android:layout_weight="0.6"
+            android:gravity="end"
+            android:id="@+id/time"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+           />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/pictureI"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+
+
+    <TextView
+        android:id="@+id/question"
+        android:padding="16dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:text="Qui est le president Du benin en exercice depuis des années?"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"/>
+
+    <RadioGroup
+        android:id="@+id/rg_choices"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/rb_choiceA"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/rb_choiceB" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/rb_choiceC" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider"/>
+    </LinearLayout>
+
+
+</LinearLayout>
